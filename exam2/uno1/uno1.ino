@@ -35,6 +35,7 @@ void lose(){
   new_game();
   is_waiting = false;
   step = 0;
+  delay(400);
 }
 
 void win(){
